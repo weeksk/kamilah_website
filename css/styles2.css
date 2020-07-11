@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  /* height: 100%; */
+  font-family: 'Roboto Mono', monospace;
+  color: #434343;
+
+}
+
+mark {
+  /* background-color: #F2F0DB; */
+  background-color: #F7F7F7;
+  color: #434343;
+}
+
+footer  {
+  font-size: 8px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+@font-face {
+	font-family: angelwine;
+	src: url(fonts/Angelwine-x3nR5.otf);
+	font-family: 'Roboto Mono';
+	src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap);
+
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.intro-container {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -100px;
+}
+
+
+.button-container {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -100px;
+}
+
+.button {
+  background-color: darksalmon;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.button:hover {opacity: 1}
+
+.text1 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.page-border-decoration {
+  border: 20px solid #F7F7F7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: -1; }
+  @media (min-width: 800px) {
+    .page-border-decoration {
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px; } }
