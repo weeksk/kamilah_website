@@ -6,6 +6,15 @@
 }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+footer  {
+  font-size: 8px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 
 progress, sub, sup {
   vertical-align: baseline; }

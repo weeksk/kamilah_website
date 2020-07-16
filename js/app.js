@@ -18,15 +18,15 @@ particlesJS("particles-js", {
         width: 0,
       },
       polygon: {
-        nb_sides: 6
+        nb_sides: 4
       },
     },
     opacity: {
-      value: 1,
+      value: .7,
       random: true,
       anim: {
-        enable: false,
-        speed: 1,
+        enable: true,
+        speed: .5,
         opacity_min: 0.1,
         sync: false
       }
@@ -50,7 +50,7 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 1.2,
       direction: "none",
       random: false,
       straight: false,
