@@ -1144,9 +1144,17 @@ p.no-bottom-margin {
     -webkit-transition: fill 200ms ease-in-out;
     transition: fill 200ms ease-in-out; }
   .social-icon:hover .social-icon-fill-2 {
-    fill: #00cc86; }
+    fill: #EEB016; }
   .social-icon a {
     display: block; }
+
+    .github {
+      background: none;
+    }
+
+  .github:hover {
+    background: #EEB016;
+  }
 
 @media (min-height: 700px) {
   .flex-floaty {
