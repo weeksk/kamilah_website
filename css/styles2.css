@@ -23,8 +23,8 @@ footer  {
 
 
 @font-face {
-	font-family: angelwine;
-	src: url(fonts/Angelwine-x3nR5.otf);
+	font-family: 'angelwine';
+	src: url(fonts/angelwine.otf);
 	font-family: 'Roboto Mono';
 	src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap);
 
